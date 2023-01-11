@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import "./global.css";
 
 export default function RootLayout({
@@ -15,6 +16,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/wvb5aqj.css" />
       </head>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
