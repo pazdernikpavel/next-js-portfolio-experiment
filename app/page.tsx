@@ -1,6 +1,7 @@
 import MainHeading from "@/components/typography/MainHeading";
 import AboutSection from "@/components/sections/about/AboutSection";
 import SkillsSection from "@/components/sections/skills/SkillsSection";
+import ExperienceSection from "@/components/sections/experience/ExperienceSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <MainHeading text="Pavel Pazderník - Software Developer"></MainHeading>
       <AboutSection></AboutSection>
       <SkillsSection></SkillsSection>
+      <ExperienceSection></ExperienceSection>
     </main>
   );
 }
