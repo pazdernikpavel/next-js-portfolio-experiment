@@ -54,9 +54,7 @@ export default function ExperienceSection() {
           gsap.to(batch, {
             opacity: 1,
             duration: 0.4,
-            delay: 0.4,
             y: 0,
-            stagger: { each: 0.2 },
             overwrite: true,
           }),
       });
