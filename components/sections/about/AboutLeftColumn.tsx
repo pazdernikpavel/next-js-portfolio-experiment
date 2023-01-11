@@ -10,13 +10,13 @@ import SecondaryHeading from "@/components/typography/SecondaryHeading";
 export default function AboutLeftColumn() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.from(".about-heading", { y: 40, opacity: 0, duration: 0.8 });
-      gsap.from(".main-text", { y: 40, opacity: 0, delay: 0.2, duration: 0.8 });
+      gsap.from(".about-heading", { y: 40, opacity: 0, duration: 0.4 });
+      gsap.from(".main-text", { y: 40, opacity: 0, delay: 0.2, duration: 0.4 });
       gsap.from(".description > *", {
         y: 40,
         opacity: 0,
         delay: 0.4,
-        duration: 0.8,
+        duration: 0.4,
         stagger: 0.2,
       });
     });
