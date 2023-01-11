@@ -14,7 +14,7 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem."
+          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem. Mezi moje nejoblíbenější 🖤 nástroje rozhodně patří Angular, Node.js, MongoDB, AWS, Figma a spoustu dalších 🚀."
         />
         <meta
           property="og:title"
@@ -22,7 +22,7 @@ export default function RootLayout({
         />
         <meta
           property="og:description"
-          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem."
+          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem. Mezi moje nejoblíbenější 🖤 nástroje rozhodně patří Angular, Node.js, MongoDB, AWS, Figma a spoustu dalších 🚀."
         />
         <meta property="og:site_name" content="pazdy.dev" />
         <meta property="og:type" content="website" />
