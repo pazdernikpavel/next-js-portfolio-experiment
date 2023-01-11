@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { gsap } from "gsap";
 
 import MainText from "@/components/typography/MainText";
@@ -8,7 +8,7 @@ import NormalText from "@/components/typography/NormalText";
 import SecondaryHeading from "@/components/typography/SecondaryHeading";
 
 export default function AboutLeftColumn() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(".about-heading", { y: 40, opacity: 0, duration: 0.4 });
       gsap.from(".main-text", { y: 40, opacity: 0, delay: 0.2, duration: 0.4 });

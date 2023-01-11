@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 
@@ -13,7 +13,7 @@ import SquareAnimations from "@/components/animations/Squares";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function ExperienceSection() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(".experience-heading", {
         scrollTrigger: {
