@@ -30,7 +30,7 @@ export default function SkillsSection() {
   }, []);
 
   return (
-    <section className="bg-primary-color flex justify-center gap-10 relative">
+    <section className="bg-primary-color flex justify-center gap-10 relative overflow-hidden">
       <div className="flex justify-center container my-24 md:my-40 z-20 gap-4 xl:gap-8 flex-wrap">
         <SkillBadge skill="Angular"></SkillBadge>
         <SkillBadge skill="React"></SkillBadge>

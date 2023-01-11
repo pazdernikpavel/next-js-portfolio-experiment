@@ -2,6 +2,7 @@ import SecondaryHeading from "@/components/typography/SecondaryHeading";
 import Experience, {
   ExperienceName,
 } from "@/components/sections/experience/Experience";
+import SquareAnimations from "@/components/animations/Squares";
 
 export default function ExperienceSection() {
   return (
@@ -93,6 +94,7 @@ export default function ExperienceSection() {
           </div>
         </div>
       </div>
+      <SquareAnimations></SquareAnimations>
     </section>
   );
 }
