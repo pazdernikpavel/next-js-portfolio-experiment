@@ -7,9 +7,10 @@ import Image from "next/image";
 export default function AboutRightColumn() {
   useEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.from(".author-image", {
-        x: 40,
-        opacity: 0,
+      gsap.set(".author-image", { x: 40, opacity: 0, visibility: "visible" });
+      gsap.to(".author-image", {
+        x: 0,
+        opacity: 1,
         duration: 0.8,
         delay: 1.2,
       });

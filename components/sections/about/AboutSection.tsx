@@ -1,5 +1,7 @@
 "use client";
 
+// import "./about.module.css";
+
 import AboutLeftColumn from "@/components/sections/about/AboutLeftColumn";
 import AboutRightColumn from "@/components/sections/about/AboutRightColumn";
 import TriangleAnimations from "@/components/animations/Triangles";

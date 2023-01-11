@@ -1,0 +1,6 @@
+.about-heading,
+.main-text,
+.author-image,
+.description > * {
+  visibility: hidden;
+}

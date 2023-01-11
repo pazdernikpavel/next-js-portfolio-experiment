@@ -9,11 +9,15 @@ import SecondaryHeading from "@/components/typography/SecondaryHeading";
 
 export default function AboutLeftColumn() {
   useEffect(() => {
-    gsap.set(".about-heading", { y: 40, opacity: 0 });
-    gsap.set(".main-text", { y: 40, opacity: 0 });
-    gsap.set(".description > *", { y: 40, opacity: 0 });
-
     let ctx = gsap.context(() => {
+      gsap.set(".about-heading", { y: 40, opacity: 0, visibility: "visible" });
+      gsap.set(".main-text", { y: 40, opacity: 0, visibility: "visible" });
+      gsap.set(".description > *", {
+        y: 40,
+        opacity: 0,
+        visibility: "visible",
+      });
+
       gsap.to(".about-heading", { y: 0, opacity: 1, duration: 0.4 });
       gsap.to(".main-text", { y: 0, opacity: 1, delay: 0.2, duration: 0.4 });
       gsap.to(".description > *", {
