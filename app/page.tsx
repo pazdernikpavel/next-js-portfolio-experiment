@@ -1,3 +1,5 @@
+"use client";
+
 import MainHeading from "@/components/typography/MainHeading";
 import AboutSection from "@/components/sections/about/AboutSection";
 import SkillsSection from "@/components/sections/skills/SkillsSection";
