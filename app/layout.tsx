@@ -29,9 +29,11 @@ export default function RootLayout({
         <meta property="og:url" content="https:pazdy.dev" />
         <meta property="og:locale" content="cs" />
         <meta property="og:image" content="https://pazdy.dev/image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@PavelPazdernik" />
         <meta name="twitter:creator" content="@PavelPazdernik" />
+        <meta name="twitter:site" content="@PavelPazdernik" />
         <meta
           name="twitter:title"
           content="Pavel Pazderník - Software Developer"
