@@ -16,7 +16,7 @@ export default function TriangleAnimations() {
         options={defaultOptions}
         height="150%"
         width="150%"
-        speed={0.5}
+        speed={0.2}
         isClickToPauseDisabled={true}
         ariaRole="img"
       />
