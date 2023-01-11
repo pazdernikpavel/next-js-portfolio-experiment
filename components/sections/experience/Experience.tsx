@@ -1,3 +1,5 @@
+"use client";
+
 import NormalText, { NormalTextType } from "@/components/typography/NormalText";
 import Image from "next/image";
 
