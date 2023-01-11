@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@layer base {
+  body {
+    font-family: roc-grotesk, sans-serif;
+  }
 
-body {
-  font-family: roc-grotesk, sans-serif;
+  .about-heading,
+  .main-text,
+  .author-image,
+  .description > * {
+    visibility: hidden;
+  }
 }
