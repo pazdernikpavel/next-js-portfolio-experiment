@@ -1,12 +1,37 @@
+"use client";
+
+import { useLayoutEffect } from "react";
+import { gsap } from "gsap";
+
 import MainText from "@/components/typography/MainText";
 import NormalText from "@/components/typography/NormalText";
 import SecondaryHeading from "@/components/typography/SecondaryHeading";
 
 export default function AboutLeftColumn() {
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      gsap.from(".about-heading", { y: 40, opacity: 0, duration: 0.8 });
+      gsap.from(".main-text", { y: 40, opacity: 0, delay: 0.2, duration: 0.8 });
+      gsap.from(".description > *", {
+        y: 40,
+        opacity: 0,
+        delay: 0.4,
+        duration: 0.8,
+        stagger: 0.2,
+      });
+    });
+
+    return () => ctx.revert();
+  });
+
   return (
     <div className="w-64 xl:w-96 flex flex-col gap-10 xl:gap-16 justify-center my-24 md:my-40">
-      <SecondaryHeading text="Kdo jsem?"></SecondaryHeading>
+      <SecondaryHeading
+        className="about-heading"
+        text="Kdo jsem?"
+      ></SecondaryHeading>
       <MainText
+        className="main-text"
         textChunks={[
           { type: "normal", text: "Jmenuji se " },
           { type: "bold", text: "Pavel" },
@@ -18,7 +43,7 @@ export default function AboutLeftColumn() {
           { type: "normal", text: "." },
         ]}
       ></MainText>
-      <div className="flex flex-col gap-5 xl:gap-10">
+      <div className="flex flex-col gap-5 xl:gap-10 description">
         <NormalText
           textChunks={[
             {
