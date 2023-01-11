@@ -20,7 +20,7 @@ export default function Experience({
   experiences: ExperienceName[];
 }) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="experience flex flex-col gap-4">
       <NormalText textChunks={textChunks}></NormalText>
       <div className="flex gap-3">
         {experiences.map((experience) => {
@@ -28,6 +28,7 @@ export default function Experience({
             case ExperienceName.ANGULAR: {
               return (
                 <Image
+                  key={experience}
                   src="./angular.svg"
                   alt="angular icon"
                   width={30}
@@ -38,6 +39,7 @@ export default function Experience({
             case ExperienceName.DOTNET: {
               return (
                 <Image
+                  key={experience}
                   src="./dotnet.svg"
                   alt="dotnet icon"
                   width={60}
@@ -48,6 +50,7 @@ export default function Experience({
             case ExperienceName.REACT: {
               return (
                 <Image
+                  key={experience}
                   src="./react.svg"
                   alt="react icon"
                   width={40}
@@ -58,6 +61,7 @@ export default function Experience({
             case ExperienceName.TYPESCRIPT: {
               return (
                 <Image
+                  key={experience}
                   src="./typescript.svg"
                   alt="typescript icon"
                   width={35}
@@ -68,6 +72,7 @@ export default function Experience({
             case ExperienceName.FIGMA: {
               return (
                 <Image
+                  key={experience}
                   src="./figma.svg"
                   alt="figma icon"
                   width={40}
@@ -78,6 +83,7 @@ export default function Experience({
             case ExperienceName.NODE_JS: {
               return (
                 <Image
+                  key={experience}
                   src="./nodejs.svg"
                   alt="node.js icon"
                   width={34}
@@ -88,6 +94,7 @@ export default function Experience({
             case ExperienceName.CYPRESS: {
               return (
                 <Image
+                  key={experience}
                   src="./cypress.svg"
                   alt="cypress icon"
                   width={40}
@@ -98,6 +105,7 @@ export default function Experience({
             case ExperienceName.GQL: {
               return (
                 <Image
+                  key={experience}
                   src="./graphql.svg"
                   alt="graphql icon"
                   width={37}
