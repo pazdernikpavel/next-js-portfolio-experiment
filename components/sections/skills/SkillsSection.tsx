@@ -1,6 +1,6 @@
 "use client";
 
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 
@@ -10,6 +10,8 @@ import SkillBadge from "@/components/sections/skills/SkillBadge";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function SkillsSection() {
+  const root = useRef();
+
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.set(".skill", { y: 120, opacity: 0 });
@@ -24,7 +26,7 @@ export default function SkillsSection() {
             overwrite: true,
           }),
       });
-    });
+    }, root);
 
     return () => ctx.revert();
   }, []);

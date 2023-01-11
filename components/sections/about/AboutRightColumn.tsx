@@ -1,10 +1,12 @@
 "use client";
 
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
 
 export default function AboutRightColumn() {
+  const root = useRef();
+
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(".author-image", {
@@ -13,7 +15,7 @@ export default function AboutRightColumn() {
         duration: 0.8,
         delay: 1.2,
       });
-    });
+    }, root);
 
     return () => ctx.revert();
   }, []);
