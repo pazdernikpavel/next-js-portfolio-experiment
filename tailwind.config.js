@@ -14,6 +14,13 @@ module.exports = {
         "roc-grotesk": ["roc-grotesk", "sans-serif"],
         "komu-b": ["komu-b", "sans-serif"],
       },
+      container: {
+        screens: {
+          sm: "16rem",
+          md: "25rem",
+          lg: "48rem",
+        },
+      },
     },
   },
   plugins: [],

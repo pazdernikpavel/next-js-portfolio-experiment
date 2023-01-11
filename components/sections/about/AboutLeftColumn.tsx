@@ -25,7 +25,7 @@ export default function AboutLeftColumn() {
   });
 
   return (
-    <div className="w-64 xl:w-96 flex flex-col gap-10 xl:gap-16 justify-center my-24 md:my-40">
+    <div className="flex flex-col gap-10 xl:gap-16 justify-center">
       <SecondaryHeading
         className="about-heading"
         text="Kdo jsem?"
@@ -37,7 +37,7 @@ export default function AboutLeftColumn() {
           { type: "bold", text: "Pavel" },
           {
             type: "normal",
-            text: " a věnuji se vývoji, především tedy front-endu, již ",
+            text: " a věnuji se vývoji, především tedy frontendu, již ",
           },
           { type: "bold", text: "7 rokem" },
           { type: "normal", text: "." },
@@ -64,7 +64,7 @@ export default function AboutLeftColumn() {
           textChunks={[
             {
               type: "normal",
-              text: "Vývoj back-endu mi také není cizí a nebojím se použít nejmodernější technologie, frameworky a cloudová řešení.",
+              text: "Vývoj backendu mi také není cizí a nebojím se použít nejmodernější technologie, frameworky a cloudová řešení.",
             },
           ]}
         ></NormalText>
