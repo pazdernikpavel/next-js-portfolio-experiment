@@ -11,6 +11,7 @@ export default function RootLayout({
       <head>
         <title>Pavel Pazderník - Software Developer</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="robots" content="index, follow" />
         <meta
           name="description"
           content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem."
