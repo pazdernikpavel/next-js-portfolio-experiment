@@ -24,11 +24,14 @@ export default function RootLayout({
           property="og:description"
           content="Expert front-end developer for CRM, e-commerce, blockchain, Big Data, and more. Led teams and worked with top tech companies."
         />
-        <meta property="og:site_name" content="pazdy.dev" />
+        <meta property="og:site_name" content="pavelpazdernik.dev" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https:pazdy.dev" />
+        <meta property="og:url" content="https://pavelpazdernik.dev/" />
         <meta property="og:locale" content="en-us" />
-        <meta property="og:image" content="https://pazdy.dev/image.jpg" />
+        <meta
+          property="og:image"
+          content="https://pavelpazdernik.dev/image.jpg"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +45,10 @@ export default function RootLayout({
           name="twitter:description"
           content="Expert front-end developer for CRM, e-commerce, blockchain, Big Data, and more. Led teams and worked with top tech companies."
         />
-        <meta name="twitter:image" content="https://pazdy.dev/image.jpg" />
+        <meta
+          name="twitter:image"
+          content="https://pavelpazdernik.dev/image.jpg"
+        />
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/wvb5aqj.css" />
