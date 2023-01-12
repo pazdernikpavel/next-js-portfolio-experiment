@@ -67,7 +67,7 @@ export default function ExperienceSection() {
     <section className="bg-tertiary-color flex justify-center relative overflow-hidden">
       <div className="flex flex-col justify-center container gap-10 xl:gap-16 my-24 md:my-40 z-20">
         <SecondaryHeading
-          text="Zkušenosti"
+          text="Experience"
           className="experience-heading"
         ></SecondaryHeading>
         <div className="flex justify-start xl:justify-center">
@@ -84,11 +84,11 @@ export default function ExperienceSection() {
                 ExperienceName.TYPESCRIPT,
               ]}
               textChunks={[
-                { type: "normal", text: "Front-end developer pro " },
+                { type: "normal", text: "Front-end developer for " },
                 { type: "bold", text: "open-bean.com" },
                 {
                   type: "normal",
-                  text: ". Externí vývoj Big Data dashboardových aplikací řízených AI pro největší technologické hráče na trhu.",
+                  text: ". External development of Big Data dashboard applications controlled by AI for the largest technology players in the market.",
                 },
               ]}
             ></Experience>
@@ -100,11 +100,11 @@ export default function ExperienceSection() {
                 ExperienceName.TYPESCRIPT,
               ]}
               textChunks={[
-                { type: "normal", text: "Back-end developer pro " },
+                { type: "normal", text: "Back-end developer for " },
                 { type: "bold", text: "strv.com" },
                 {
                   type: "normal",
-                  text: ". Vývoj a přepis API několika aplikací pro zákazníky z USA.",
+                  text: ". Development and rewriting of API for several applications for customers in the USA.",
                 },
               ]}
             ></Experience>
@@ -117,11 +117,11 @@ export default function ExperienceSection() {
                 ExperienceName.CYPRESS,
               ]}
               textChunks={[
-                { type: "normal", text: "Front-end team lead pro " },
+                { type: "normal", text: "Front-end team lead for " },
                 { type: "bold", text: "mytitle.com" },
                 {
                   type: "normal",
-                  text: ". Vývoj blockchainových řešení, vedení týmu 4 juniorních developerů, spolupráce s vedením a pomoc při designu produktu.",
+                  text: ". Development of blockchain solutions, leading a team of 4 junior developers, collaborating with management and assisting with product design.",
                 },
               ]}
             ></Experience>
@@ -133,22 +133,22 @@ export default function ExperienceSection() {
                 ExperienceName.TYPESCRIPT,
               ]}
               textChunks={[
-                { type: "normal", text: "Front-end developer pro " },
+                { type: "normal", text: "Front-end developer for " },
                 { type: "bold", text: "linksoft.eu" },
                 {
                   type: "normal",
-                  text: ". Zakázkový vývoj CRM systémů pro největší dodavatele na českém trhu.",
+                  text: ". Custom development of CRM systems for the largest suppliers on the Czech market.",
                 },
               ]}
             ></Experience>
             <Experience
               experiences={[ExperienceName.ANGULAR, ExperienceName.DOTNET]}
               textChunks={[
-                { type: "normal", text: "IT konzultant pro " },
+                { type: "normal", text: "IT consultant for " },
                 { type: "bold", text: "provys.com" },
                 {
                   type: "normal",
-                  text: ". Konfigurace a školení klíčových uživatel v systémech, vývoj interních aplikací.",
+                  text: ". Configuration and training of key users in systems, development of internal applications.",
                 },
               ]}
             ></Experience>

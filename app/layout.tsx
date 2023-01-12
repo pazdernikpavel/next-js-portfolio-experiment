@@ -7,14 +7,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="cs">
+    <html lang="en-us">
       <head>
         <title>Pavel Pazderník - Software Developer</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem. Mezi moje nejoblíbenější 🖤 nástroje rozhodně patří Angular, Node.js, MongoDB, AWS, Figma a spoustu dalších 🚀."
+          content="Expert front-end developer for CRM, e-commerce, blockchain, Big Data, and more. Led teams and worked with top tech companies."
         />
         <meta
           property="og:title"
@@ -22,12 +22,12 @@ export default function RootLayout({
         />
         <meta
           property="og:description"
-          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem. Mezi moje nejoblíbenější 🖤 nástroje rozhodně patří Angular, Node.js, MongoDB, AWS, Figma a spoustu dalších 🚀."
+          content="Expert front-end developer for CRM, e-commerce, blockchain, Big Data, and more. Led teams and worked with top tech companies."
         />
         <meta property="og:site_name" content="pazdy.dev" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https:pazdy.dev" />
-        <meta property="og:locale" content="cs" />
+        <meta property="og:locale" content="en-us" />
         <meta property="og:image" content="https://pazdy.dev/image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
@@ -40,7 +40,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:description"
-          content="Jmenuji se Pavel a věnuji se vývoji, především tedy frontendu, již 7 rokem."
+          content="Expert front-end developer for CRM, e-commerce, blockchain, Big Data, and more. Led teams and worked with top tech companies."
         />
         <meta name="twitter:image" content="https://pazdy.dev/image.jpg" />
 

@@ -36,18 +36,18 @@ export default function AboutLeftColumn() {
     <div className="flex flex-col gap-10 xl:gap-16 justify-center">
       <SecondaryHeading
         className="about-heading"
-        text="Kdo jsem?"
+        text="About"
       ></SecondaryHeading>
       <MainText
         className="main-text"
         textChunks={[
-          { type: "normal", text: "Jmenuji se " },
+          { type: "normal", text: "My name is " },
           { type: "bold", text: "Pavel" },
           {
             type: "normal",
-            text: " a věnuji se vývoji, především tedy frontendu, již ",
+            text: " and I have been dedicated to development, mainly front-end, for ",
           },
-          { type: "bold", text: "7 rokem" },
+          { type: "bold", text: "7 years" },
           { type: "normal", text: "." },
         ]}
       ></MainText>
@@ -56,7 +56,7 @@ export default function AboutLeftColumn() {
           textChunks={[
             {
               type: "normal",
-              text: "Seniorní developer 👨🏻‍💻 se zkušenostmi z vývoje CRM systémů, e-commerce, blockchainových aplikací, Big Data dashboardů a několika dalších projektů.",
+              text: "Senior developer 👨🏻‍💻 with experience in developing CRM systems, e-commerce, blockchain applications, Big Data dashboards, and several other projects.",
             },
           ]}
         ></NormalText>
@@ -64,7 +64,7 @@ export default function AboutLeftColumn() {
           textChunks={[
             {
               type: "normal",
-              text: "Jako frontenďák jsem se také zamiloval do UI/UX designu a to včetně wireframování, prototypování a designu všeobecně 🛠️.",
+              text: "As a front-end developer, I have also fallen in love with UI/UX design, including wireframing, prototyping and design in general 🛠️.",
             },
           ]}
         ></NormalText>
@@ -72,7 +72,7 @@ export default function AboutLeftColumn() {
           textChunks={[
             {
               type: "normal",
-              text: "Vývoj backendu mi také není cizí a nebojím se použít nejmodernější technologie, frameworky a cloudová řešení.",
+              text: "Back-end development is also not foreign to me and I am not afraid to use the most modern technologies, frameworks, and cloud solutions.",
             },
           ]}
         ></NormalText>
@@ -80,7 +80,7 @@ export default function AboutLeftColumn() {
           textChunks={[
             {
               type: "normal",
-              text: "Mezi moje nejoblíbenější 🖤 nástroje rozhodně patří Angular, Node.js, MongoDB, AWS, Figma a spoustu dalších 🚀.",
+              text: "My favorite tools 🖤 include Angular, Node.js, MongoDB, AWS, Figma, and many more 🚀.",
             },
           ]}
         ></NormalText>

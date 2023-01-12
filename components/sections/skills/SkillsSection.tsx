@@ -45,10 +45,10 @@ export default function SkillsSection() {
         <SkillBadge skill="Cypress"></SkillBadge>
         <SkillBadge skill="Next.js"></SkillBadge>
         <SkillBadge skill="Angular Universal"></SkillBadge>
-        <SkillBadge skill="Architektura"></SkillBadge>
+        <SkillBadge skill="Architecture"></SkillBadge>
         <SkillBadge skill="Node.js"></SkillBadge>
         <SkillBadge skill=".NET"></SkillBadge>
-        <SkillBadge skill="SQL / NoSQL Databáze"></SkillBadge>
+        <SkillBadge skill="SQL / NoSQL Databases"></SkillBadge>
         <SkillBadge skill="Redis"></SkillBadge>
         <SkillBadge skill="Firebase"></SkillBadge>
         <SkillBadge skill="GCP"></SkillBadge>
