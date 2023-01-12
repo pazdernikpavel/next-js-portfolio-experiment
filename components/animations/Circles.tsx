@@ -11,7 +11,7 @@ export default function CircleAnimations() {
   };
 
   return (
-    <div className="absolute z-10 left-0 top-0 hidden lg:block">
+    <div className="absolute z-10 left-0 top-0 hidden lg:block w-screen">
       <Lottie
         options={defaultOptions}
         height="150%"
